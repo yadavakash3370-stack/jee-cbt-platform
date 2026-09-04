@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>JEE CBT — Practice Smarter</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <div class="logo">
+    <span class="logo-box">J</span>
+    <span>JEE CBT</span>
+  </div>
+
+  <nav>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('practice')">Practice</button>
+    <button onclick="showPage('mock')">Mock Tests</button>
+    <button onclick="showPage('performance')">Performance</button>
+  </nav>
+
+  <button class="profile" onclick="showPage('profile')">
+    <span>A</span>
+    Akash
+  </button>
+
+</header>
+
+
+<main>
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="page active">
+
+  <div class="hero">
+
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        JEE MAIN • CBT PRACTICE
+      </div>
+
+      <h1>
+        Practice like the
+        <span>real exam.</span>
+      </h1>
+
+      <p>
+        Experience a realistic JEE computer-based test environment
+        with timed mock tests, chapter practice and instant analysis.
+      </p>
+
+      <div class="hero-buttons">
+
+        <button class="btn primary"
+                onclick="showPage('mock')">
+          Start Mock Test →
+        </button>
+
+        <button class="btn secondary"
+                onclick="showPage('practice')">
+          Explore Practice
+        </button>
+
+      </div>
+
+      <div class="trust">
+
+        <span>✓ Real CBT interface</span>
+        <span>✓ Instant analysis</span>
+        <span>✓ Mobile friendly</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="preview">
+
+      <div class="preview-header">
+
+        <b>JEE MAIN MOCK #07</b>
+
+        <span>● 02:41:18</span>
+
+      </div>
+
+
+      <div class="preview-content">
+
+        <small>
+          Question 17 / 75 • Physics
+        </small>
+
+        <h3>
+          A particle moves with constant acceleration...
+        </h3>
+
+
+        <div class="preview-option selected">
+          A&nbsp;&nbsp; 10 m/s
+        </div>
+
+        <div class="preview-option">
+          B&nbsp;&nbsp; 20 m/s
+        </div>
+
+        <div class="preview-option">
+          C&nbsp;&nbsp; 30 m/s
+        </div>
+
+        <div class="preview-option">
+          D&nbsp;&nbsp; 40 m/s
+        </div>
+
+      </div>
+
+
+      <div class="preview-footer">
+
+        <span>● 16 Answered</span>
+
+        <span>○ 8 Remaining</span>
+
+        <button>Save & Next →</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="section-title">
+
+    <div class="eyebrow">
+      EVERYTHING YOU NEED
+    </div>
+
+    <h2>
+      Built for serious JEE practice.
+    </h2>
+
+  </div>
+
+
+  <div class="features">
+
+    <div class="feature">
+
+      <div class="feature-icon">⏱</div>
+
+      <h3>
+        Real CBT Experience
+      </h3>
+
+      <p>
+        Timer, question palette, review flags and navigation
+        designed around exam-day flow.
+      </p>
+
+    </div>
+
+
+    <div class="feature">
+
+      <div class="feature-icon">◎</div>
+
+      <h3>
+        Chapter Practice
+      </h3>
+
+      <p>
+        Target weak chapters with focused Physics,
+        Chemistry and Mathematics practice.
+      </p>
+
+    </div>
+
+
+    <div class="feature">
+
+      <div class="feature-icon">↗</div>
+
+      <h3>
+        Smart Analytics
+      </h3>
+
+      <p>
+        Understand accuracy, speed and subject performance
+        after every test.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= PRACTICE ================= -->
+
+<section id="practice" class="page">
+
+  <div class="page-title">
+
+    <div class="eyebrow">
+      PRACTICE
+    </div>
+
+    <h1>
+      Choose your subject.
+    </h1>
+
+    <p>
+      Practice chapter-wise and build consistency.
+    </p>
+
+  </div>
+
+
+  <div class="subjects">
+
+    <div class="subject">
+
+      <div class="subject-icon">
+        Φ
+      </div>
+
+      <h2>
+        Physics
+      </h2>
+
+      <p>
+        24 chapters • 1,840 questions
+      </p>
+
+      <button class="btn dark"
+              onclick="showPage('mock')">
+        Practice →
+      </button>
+
+    </div>
+
+
+    <div class="subject">
+
+      <div class="subject-icon">
+        ⚗
+      </div>
+
+      <h2>
+        Chemistry
+      </h2>
+
+      <p>
+        29 chapters • 2,120 questions
+      </p>
+
+      <button class="btn dark"
+              onclick="showPage('mock')">
+        Practice →
+      </button>
+
+    </div>
+
+
+    <div class="subject">
+
+      <div class="subject-icon">
+        ∑
+      </div>
+
+      <h2>
+        Mathematics
+      </h2>
+
+      <p>
+        28 chapters • 2,050 questions
+      </p>
+
+      <button class="btn dark"
+              onclick="showPage('mock')">
+        Practice →
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div class="panel">
+
+    <div class="panel-header">
+
+      <h2>
+        Continue Practice
+      </h2>
+
+      <span>
+        3 active chapters
+      </span>
+
+    </div>
+
+
+    <div class="chapter">
+
+      <div>
+        <b>Kinematics</b>
+        <small>Physics</small>
+      </div>
+
+      <div class="progress">
+        <i style="width:72%"></i>
+      </div>
+
+      <strong>72%</strong>
+
+      <button onclick="startTest()">
+        Continue
+      </button>
+
+    </div>
+
+
+    <div class="chapter">
+
+      <div>
+        <b>Electrochemistry</b>
+        <small>Chemistry</small>
+      </div>
+
+      <div class="progress">
+        <i style="width:48%"></i>
+      </div>
+
+      <strong>48%</strong>
+
+      <button onclick="startTest()">
+        Continue
+      </button>
+
+    </div>
+
+
+    <div class="chapter">
+
+      <div>
+        <b>Quadratic Equations</b>
+        <small>Mathematics</small>
+      </div>
+
+      <div class="progress">
+        <i style="width:31%"></i>
+      </div>
+
+      <strong>31%</strong>
+
+      <button onclick="startTest()">
+        Continue
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= MOCK TESTS ================= -->
+
+<section id="mock" class="page">
+
+  <div class="page-title">
+
+    <div class="eyebrow">
+      MOCK TESTS
+    </div>
+
+    <h1>
+      Test yourself.
+    </h1>
+
+    <p>
+      Pick a paper and enter the CBT environment.
+    </p>
+
+  </div>
+
+
+  <div class="tests">
+
+    <div class="test featured">
+
+      <span class="tag">
+        RECOMMENDED
+      </span>
+
+      <h2>
+        JEE Main Full Mock #07
+      </h2>
+
+      <p>
+        75 questions • 180 minutes • 300 marks
+      </p>
+
+      <div class="test-subjects">
+        <span>Physics</span>
+        <span>Chemistry</span>
+        <span>Mathematics</span>
+      </div>
+
+      <button class="btn primary"
+              onclick="startTest()">
+        Start Test →
+      </button>
+
+    </div>
+
+
+    <div class="test">
+
+      <span class="tag gray">
+        PYQ
+      </span>
+
+      <h2>
+        JEE Main 2025 • Shift 1
+      </h2>
+
+      <p>
+        75 questions • 180 minutes
+      </p>
+
+      <button class="btn secondary"
+              onclick="startTest()">
+        Start Test →
+      </button>
+
+    </div>
+
+
+    <div class="test">
+
+      <span class="tag gray">
+        PRACTICE
+      </span>
+
+      <h2>
+        Physics Speed Test
+      </h2>
+
+      <p>
+        30 questions • 45 minutes
+      </p>
+
+      <button class="btn secondary"
+              onclick="startTest()">
+        Start Test →
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= CBT ================= -->
+
+<section id="cbt" class="page cbt-page">
+
+  <div class="cbt">
+
+    <div class="cbt-header">
+
+      <div>
+
+        <b>
+          JEE MAIN MOCK #07
+        </b>
+
+        <small>
+          Physics • Section A
+        </small>
+
+      </div>
+
+
+      <div class="question-number">
+
+        Question
+        <b id="questionNumber">
+          1
+        </b>
+        / 10
+
+      </div>
+
+
+      <div class="timer">
+
+        ⏱
+        <span id="timer">
+          30:00
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div class="cbt-body">
+
+      <div class="question-area">
+
+        <div class="question-label">
+          Question
+          <span id="questionLabel">
+            1
+          </span>
+        </div>
+
+
+        <h2 id="question">
+          A particle starts from rest and moves
+          with constant acceleration. Its velocity
+          after 5 seconds is 20 m/s. What is its
+          acceleration?
+        </h2>
+
+
+        <div id="options"></div>
+
+
+        <div class="cbt-controls">
+
+          <button class="control"
+                  onclick="clearAnswer()">
+            Clear Response
+          </button>
+
+          <button class="control"
+                  onclick="toggleReview()">
+            ⚑ Mark for Review
+          </button>
+
+          <div></div>
+
+          <button class="control"
+                  onclick="previousQuestion()">
+            ← Previous
+          </button>
+
+          <button class="btn primary"
+                  onclick="nextQuestion()">
+            Save & Next →
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <aside class="palette">
+
+        <div class="palette-header">
+
+          <b>
+            Question Palette
+          </b>
+
+          <span id="answeredCount">
+            0 Answered
+          </span>
+
+        </div>
+
+
+        <div id="palette">
+        </div>
+
+
+        <div class="legend">
+
+          <span>
+            <i class="answered"></i>
+            Answered
+          </span>
+
+          <span>
+            <i class="review"></i>
+            Review
+          </span>
+
+          <span>
+            <i class="current"></i>
+            Current
+          </span>
+
+          <span>
+            <i></i>
+            Not Visited
+          </span>
+
+        </div>
+
+
+        <button class="submit"
+                onclick="submitTest()">
+          Submit Test
+        </button>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= PERFORMANCE ================= -->
+
+<section id="performance" class="page">
+
+  <div class="page-title">
+
+    <div class="eyebrow">
+      PERFORMANCE
+    </div>
+
+    <h1>
+      Your progress.
+    </h1>
+
+    <p>
+      Small improvements add up to a big score.
+    </p>
+
+  </div>
+
+
+  <div class="stats">
+
+    <div>
+      <span>Tests taken</span>
+      <b>24</b>
+      <small>+4 this month</small>
+    </div>
+
+    <div>
+      <span>Average score</span>
+      <b>168</b>
+      <small>out of 300</small>
+    </div>
+
+    <div>
+      <span>Accuracy</span>
+      <b>78%</b>
+      <small>+6% this month</small>
+    </div>
+
+    <div>
+      <span>Questions</span>
+      <b>1,248</b>
+      <small>solved</small>
+    </div>
+
+  </div>
+
+
+  <div class="analytics">
+
+    <div class="panel">
+
+      <div class="panel-header">
+        <h2>Subject accuracy</h2>
+      </div>
+
+      <div class="bar-row">
+        <span>Physics</span>
+        <div class="bar">
+          <i style="width:82%"></i>
+        </div>
+        <b>82%</b>
+      </div>
+
+      <div class="bar-row">
+        <span>Chemistry</span>
+        <div class="bar">
+          <i style="width:76%"></i>
+        </div>
+        <b>76%</b>
+      </div>
+
+      <div class="bar-row">
+        <span>Mathematics</span>
+        <div class="bar">
+          <i style="width:71%"></i>
+        </div>
+        <b>71%</b>
+      </div>
+
+    </div>
+
+
+    <div class="panel">
+
+      <div class="panel-header">
+
+        <h2>
+          Latest mock
+        </h2>
+
+        <span>
+          Today
+        </span>
+
+      </div>
+
+      <div class="big-score">
+        184<span>/300</span>
+      </div>
+
+      <p>
+        Better than your previous attempt by
+        <b>+12 marks</b>.
+      </p>
+
+      <button class="btn secondary"
+              onclick="showPage('mock')">
+        Take another mock
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= PROFILE ================= -->
+
+<section id="profile" class="page">
+
+  <div class="page-title">
+
+    <div class="eyebrow">
+      PROFILE
+    </div>
+
+    <h1>
+      Student profile.
+    </h1>
+
+  </div>
+
+
+  <div class="profile-card">
+
+    <div class="large-avatar">
+      A
+    </div>
+
+    <div>
+
+      <h2>
+        Akash
+      </h2>
+
+      <p>
+        JEE Main • Student
+      </p>
+
+      <span class="streak">
+        🔥 12 day streak
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= RESULT MODAL ================= -->
+
+<div id="resultModal" class="modal">
+
+  <div class="modal-card">
+
+    <button class="close"
+            onclick="closeResult()">
+      ×
+    </button>
+
+    <div class="eyebrow">
+      TEST SUBMITTED
+    </div>
+
+    <h2>
+      Test completed!
+    </h2>
+
+    <div class="result-score">
+
+      <b id="finalScore">
+        0
+      </b>
+
+      <span>
+        / 40
+      </span>
+
+    </div>
+
+
+    <div class="result-grid">
+
+      <div>
+        <b id="correct">
+          0
+        </b>
+        <small>Correct</small>
+      </div>
+
+      <div>
+        <b id="wrong">
+          0
+        </b>
+        <small>Wrong</small>
+      </div>
+
+      <div>
+        <b id="unattempted">
+          0
+        </b>
+        <small>Unattempted</small>
+      </div>
+
+    </div>
+
+
+    <button class="btn primary"
+            onclick="closeResult();showPage('home')">
+      Back to Dashboard
+    </button>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
